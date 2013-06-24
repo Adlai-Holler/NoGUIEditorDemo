@@ -17,7 +17,6 @@
 		CC3B97F91778C06A00E48433 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC3B97F81778C06A00E48433 /* Default@2x.png */; };
 		CC3B97FB1778C06A00E48433 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC3B97FA1778C06A00E48433 /* Default-568h@2x.png */; };
 		CC3B97FE1778C06A00E48433 /* AHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3B97FD1778C06A00E48433 /* AHViewController.m */; };
-		CC3B98011778C06A00E48433 /* AHViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC3B97FF1778C06A00E48433 /* AHViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,7 +35,6 @@
 		CC3B97FA1778C06A00E48433 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		CC3B97FC1778C06A00E48433 /* AHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AHViewController.h; sourceTree = "<group>"; };
 		CC3B97FD1778C06A00E48433 /* AHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AHViewController.m; sourceTree = "<group>"; };
-		CC3B98001778C06A00E48433 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AHViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +85,6 @@
 				CC3B97F41778C06A00E48433 /* AHAppDelegate.m */,
 				CC3B97FC1778C06A00E48433 /* AHViewController.h */,
 				CC3B97FD1778C06A00E48433 /* AHViewController.m */,
-				CC3B97FF1778C06A00E48433 /* AHViewController.xib */,
 				CC3B97EB1778C06A00E48433 /* Supporting Files */,
 			);
 			path = NoGUIEditor;
@@ -163,7 +160,6 @@
 				CC3B97F71778C06A00E48433 /* Default.png in Resources */,
 				CC3B97F91778C06A00E48433 /* Default@2x.png in Resources */,
 				CC3B97FB1778C06A00E48433 /* Default-568h@2x.png in Resources */,
-				CC3B98011778C06A00E48433 /* AHViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,14 +185,6 @@
 				CC3B97EE1778C06A00E48433 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		CC3B97FF1778C06A00E48433 /* AHViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CC3B98001778C06A00E48433 /* en */,
-			);
-			name = AHViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
